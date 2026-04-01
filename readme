@@ -1,0 +1,4 @@
+#commande de lancement:
+ python -m uvicorn app.main:app --reload
+#puis visit:
+http://127.0.0.1:8000
