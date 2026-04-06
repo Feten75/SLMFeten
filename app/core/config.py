@@ -1,12 +1,17 @@
 AVAILABLE_MODELS = [
-    'deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B',
-    'meta-llama/Llama-3.2-1B-Instruct',
-    'google/gemma-3-4b-it',
-    "google/gemma-2-2b-it",
-    'HuggingFaceTB/SmolLM2-360M-Instruct',
-    'TinyLlama/TinyLlama-1.1B-Chat-v1.0',
-    'Qwen/Qwen2.5-1.5B-Instruct',
-    'microsoft/phi-2',
-    'HuggingFaceTB/smollm2-1.7b-instruct',
-    'distilgpt2'
+    'deepseek-r1:1.5b',
+    'llama3.2:1b',  
+    'gemma2:2b',    
+    'smollm2:360m',   
+    'smollm2:1.7b',   
+    'tinyllama',     
+    'qwen2.5:1.5b',  
+    'phi4:14b',
+    'smollm:135m',
+        
+    # new models:
+    'llama3.1:8b', 
+    'gemma3:4b',  
+    'qwen3.5:2b',
+    'mistral:7b',
 ]

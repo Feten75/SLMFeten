@@ -2,3 +2,29 @@
  python -m uvicorn app.main:app --reload
 #puis visit:
 http://127.0.0.1:8000
+
+#ollama:
+C:\Users\Feten Dridi\.ollama\models\manifests\registry.ollama.ai
+
+1. Transition technologique
+Initialement, j’utilisais des modèles Hugging Face (.safetensors) avec OpenVINO, mais les performances restaient 
+limitées (latence > 60 s).
+J’ai donc migré vers Ollama utilisant le format GGUF, optimisé pour la quantification,
+ permettant une exécution plus rapide.
+
+2. Implémentation technique
+
+Installation et configuration locale du serveur Ollama
+Intégration de modèles optimisés (Mistral 7B, Qwen 2.5 1.5B, Gemma 2 2B) avec ollama pull name
+Refactorisation du module SLM pour communiquer avec Ollama, tout en conservant l’architecture existante (DDD)
+Exploitation du GPU Intel Iris Xe pour accélérer l’inférence
+
+3. Résultats obtenus
+Cette optimisation a permis de réduire le temps de réponse de 120 secondes à environ 2 secondes, soit un gain de performance majeur.
+
+4. Conclusion et perspectives
+Le format GGUF constitue une avancée clé pour le projet. Cependant, la latence reste encore au-dessus de l’objectif temps réel (< 1 seconde)
+
+Next step
+==>utilisation de llama.cpp pour un contrôle plus fin des performances
+==>Le fine-tuning d’un modèle léger afin d’améliorer sa précision tout en conservant une latence faible
