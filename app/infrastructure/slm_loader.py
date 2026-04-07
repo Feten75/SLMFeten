@@ -1,85 +1,102 @@
 import os
-import ollama
 import time
+import gc
 import psutil
+from llama_cpp import Llama
+from huggingface_hub import hf_hub_download
 from app.domain.slm_interface import ISLM
 
 class SLMLoader(ISLM):
     def __init__(self):
+        self.model = None
         self.current_model_name = None
-        self.actual_device = "Intel Iris Xe (GPU)"
+        self.actual_device = "Intel i9 (CPU AVX2 via llama.cpp)"
+        self.DOWNLOAD_DIR = "models/modelsLammacpp"
+        
+        self.model_mapping = {
+            "llama3.2:1b": {"repo": "bartowski/Llama-3.2-1B-Instruct-GGUF", "file": "Llama-3.2-1B-Instruct-Q4_K_M.gguf"},
+            "qwen2.5:1.5b": {"repo": "bartowski/Qwen2.5-1.5B-Instruct-GGUF", "file": "Qwen2.5-1.5B-Instruct-Q4_K_M.gguf"},
+            "gemma2:2b": {"repo": "bartowski/gemma-2-2b-it-GGUF", "file": "gemma-2-2b-it-Q4_K_M.gguf"},
+            "smollm2:1.7b": {"repo": "bartowski/SmolLM2-1.7B-Instruct-GGUF", "file": "SmolLM2-1.7B-Instruct-Q4_K_M.gguf"},
+            "tinyllama": {"repo": "TheBloke/TinyLlama-1.1B-Chat-v1.0-GGUF", "file": "tinyllama-1.1b-chat-v1.0.Q4_K_M.gguf"},
+            "deepseek-r1:1.5b": {"repo": "unsloth/DeepSeek-R1-Distill-Qwen-1.5B-GGUF", "file": "DeepSeek-R1-Distill-Qwen-1.5B-Q4_K_M.gguf"},
+            # new
+            "smollm2:360m": {"repo": "bartowski/SmolLM2-360M-Instruct-GGUF", "file": "SmolLM2-360M-Instruct-Q4_K_M.gguf"},
+            "smollm:135m": {"repo": "QuantFactory/SmolLM-135M-Instruct-GGUF", "file": "SmolLM-135M-Instruct.Q4_K_M.gguf"},
+            "phi4:14b": {"repo": "bartowski/phi-4-GGUF", "file": "phi-4-Q4_K_M.gguf"},
+            "llama3.1:8b": {"repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF", "file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf"},
+            "gemma3:4b": {"repo": "google/gemma-4-31B-it", "file": "gemma-4-31B-it.gguf"},
+            "qwen3.5:2b": {"repo": "bartowski/Qwen2.5-3B-Instruct-GGUF", "file": "Qwen2.5-3B-Instruct-Q4_K_M.gguf"},
+            "mistral:7b": {"repo": "bartowski/Mistral-7B-Instruct-v0.3-GGUF", "file": "Mistral-7B-Instruct-v0.3-Q4_K_M.gguf"}
+        }
 
     def _free_memory(self):
-        """Libère le modèle actuel de la mémoire d'Ollama"""
-        if self.current_model_name:
-            try:
-                print(f"--- [OLLAMA] Libération du modèle : {self.current_model_name} ---")
-                ollama.generate(model=self.current_model_name, keep_alive=0)
-                time.sleep(1)
-            except Exception as e:
-                print(f"Erreur lors de la libération : {e}")
+        if self.model:
+            del self.model
+            self.model = None
+            gc.collect()
+            time.sleep(1)
 
     def load_model(self, model_name: str):
         try:
             self._free_memory()
-            print(f"--- [OLLAMA] Vérification locale de : {model_name} ---")
-            
-            local_models_resp = ollama.list()
-            model_exists = any(m.model == model_name for m in local_models_resp.models)
+            if model_name not in self.model_mapping:
+                return f"ERREUR : Le modèle '{model_name}' n'est pas configuré dans le dictionnaire de mapping."
 
-            if model_exists:
-                print(f"--- [LOCAL] Modèle trouvé ! Chargement immédiat. ---")
-            else:
-                print(f"--- [DISTANT] Modèle absent. Téléchargement... ---")
-                ollama.pull(model_name)
-            
-            self.current_model_name = model_name
-            return f"Succès : {model_name} est chargé."
+            info = self.model_mapping[model_name]
+            print(f"--- [AUTO-LOAD] Vérification locale de : {model_name} ---")
 
-        except Exception as e:
-            return f"ERREUR CHARGEMENT : {str(e)}"
-    
-    def generate(self, system_prompt: str, user_prompt: str):
-        if not self.current_model_name:
-            return {"error": "MODEL_NOT_LOADED"}
+            model_path = hf_hub_download(
+                repo_id=info["repo"],
+                filename=info["file"],
+                local_dir=self.DOWNLOAD_DIR
+            )
 
-        start_time = time.time()
-        try:
-            response = ollama.generate(
-                model=self.current_model_name,
-                system=system_prompt, 
-                prompt=user_prompt,
-                options={
-                    "num_thread": 8,
-                    "num_ctx": 1024, 
-                    "num_gpu": 1,         # Forcer l'usage du GPU
-                    "num_predict": 40,  
-                    "temperature": 0.1    # Basse température pour plus de précision (médical)
-                },
-                keep_alive="5m"           # Garde en mémoire 5min entre les tests si on ne change pas de modèle
+            print(f"--- [LLAMACPP] Chargement du moteur C++ : {model_path} ---")
+            self.model = Llama(
+                model_path=model_path,
+                n_ctx=1024,
+                n_threads=12,
+                verbose=False
             )
             
-            end_time = time.time()
-            inf_time = round(end_time - start_time, 3)
+            self.current_model_name = model_name
+            return f"Succès : {model_name} est prêt."
 
-            total_ram_mb = 0
-            for proc in psutil.process_iter(['name', 'memory_info']):
-                try:
-                    if "ollama" in proc.info['name'].lower():
-                        total_ram_mb += proc.info['memory_info'].rss / (1024**2)
-                except: continue
-
-            return {
-                "response": response['response'].strip(),
-                "inference_time": inf_time,
-                "tokens_generated": response.get('eval_count', 40),
-                "consumption": {
-                    "cpu_usage_percent": psutil.cpu_percent(),
-                    "ram_allocated_mb": round(total_ram_mb, 2),
-                    "ram_delta_mb": 0.0,
-                    "device": self.actual_device
-                }
-            }
         except Exception as e:
-            return {"error": f"Erreur génération : {str(e)}"}
+            return f"ERREUR CHARGEMENT AUTO : {str(e)}"
+
+    def generate(self, system_prompt: str, user_prompt: str):
+        if not self.model: 
+            return {"error": "MODEL_NOT_LOADED"}
         
+        process = psutil.Process(os.getpid())
+        start_mem = process.memory_info().rss / (1024**2)
+        psutil.cpu_percent(interval=None)
+
+        prompt = f"<|im_start|>system\n{system_prompt}<|im_end|>\n<|im_start|>user\n{user_prompt}<|im_end|>\n<|im_start|>assistant\n"
+        
+        start_time = time.time()
+        output = self.model(
+            prompt, 
+            max_tokens=40, 
+            stop=["<|im_end|>", "<|endoftext|>", "User:"], 
+            temperature=0.1
+        )
+        end_time = time.time()
+
+        end_mem = process.memory_info().rss / (1024**2)
+        cpu_val = psutil.cpu_percent(interval=None)
+
+        return {
+            "response": output['choices'][0]['text'].strip(),
+            "inference_time": round(end_time - start_time, 3),
+            "tokens_generated": output['usage']['completion_tokens'],
+            "consumption": {
+                "cpu_usage_percent": cpu_val,          
+                "ram_allocated_mb": round(end_mem, 2), 
+                "ram_delta_mb": round(max(0, end_mem - start_mem), 2),
+                "device": self.actual_device
+            }
+        }
+    

@@ -6,25 +6,27 @@ http://127.0.0.1:8000
 #ollama:
 C:\Users\Feten Dridi\.ollama\models\manifests\registry.ollama.ai
 
-1. Transition technologique
-Initialement, j’utilisais des modèles Hugging Face (.safetensors) avec OpenVINO, mais les performances restaient 
-limitées (latence > 60 s).
-J’ai donc migré vers Ollama utilisant le format GGUF, optimisé pour la quantification,
- permettant une exécution plus rapide.
+#lamma cpp:
+Format : .GGUF
+Moteur : C++ natif (llama.cpp)
+Intégration : via llama-cpp-python
 
-2. Implémentation technique
 
-Installation et configuration locale du serveur Ollama
-Intégration de modèles optimisés (Mistral 7B, Qwen 2.5 1.5B, Gemma 2 2B) avec ollama pull name
-Refactorisation du module SLM pour communiquer avec Ollama, tout en conservant l’architecture existante (DDD)
-Exploitation du GPU Intel Iris Xe pour accélérer l’inférence
+A. Installation:
+Microsoft Visual Studio Build Tools 2019 (C++)
+Intel oneAPI (accélération GPU Iris Xe)
 
-3. Résultats obtenus
-Cette optimisation a permis de réduire le temps de réponse de 120 secondes à environ 2 secondes, soit un gain de performance majeur.
+# Optimisation CPU (AVX2)
+$env:CMAKE_ARGS="-DGGML_CPU=ON"
+# Installation du binding Python
+pip install llama-cpp-python --force-reinstall --no-cache-dir
+B. Gestion automatique des modèles
 
-4. Conclusion et perspectives
-Le format GGUF constitue une avancée clé pour le projet. Cependant, la latence reste encore au-dessus de l’objectif temps réel (< 1 seconde)
+Implémentation via huggingface_hub :
 
-Next step
-==>utilisation de llama.cpp pour un contrôle plus fin des performances
-==>Le fine-tuning d’un modèle léger afin d’améliorer sa précision tout en conservant une latence faible
+Vérifie si le modèle .gguf existe localement :
+models/modelsLammacpp/
+Sinon :
+Téléchargement automatique depuis Hugging Face
+Monitoring des performances
+Les résultats sont stockés dans MongoDB :

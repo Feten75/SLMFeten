@@ -5,7 +5,7 @@ class MongoRepository:
     def __init__(self):
         self.client = MongoClient("mongodb://localhost:27017")
         self.db = self.client["slm_database"]
-        self.collection = self.db["db_ollama_v_final"]
+        self.collection = self.db["db_lamacpp"]
 
     def save(self, data: dict):
         data["timestamp"] = datetime.utcnow()
