@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>SLM Chat - Interface User</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        #chat_box { height: 400px; overflow-y: auto; background: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 10px; }
+        .metric-card { font-size: 0.85rem; background: #e9ecef; border-radius: 5px; padding: 10px; }
+    </style>
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-dark bg-primary mb-4">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">SLM Chat Interface</span>
+            <button class="btn btn-outline-light btn-sm" onclick="logout()">Déconnexion</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <!-- Colonne Gauche : Chat -->
+            <div class="col-md-8">
+                <div id="chat_box" class="mb-3 shadow-sm">
+                    <div class="text-muted italic">Sélectionnez un modèle et commencez à discuter...</div>
+                </div>
+                
+                <div class="input-group mb-3 shadow-sm">
+                    <input type="text" id="user_input" class="form-control" placeholder="Posez votre question ici...">
+                    <button class="btn btn-primary" onclick="sendPrompt()">Envoyer</button>
+                </div>
+            </div>
+
+            <!-- Colonne Droite : Paramètres et Métriques -->
+            <div class="col-md-4">
+                <div class="card p-3 shadow-sm mb-3">
+                    <h6>Configuration</h6>
+                    <select id="modelSelect" class="form-select mb-2">
+                        <option value="llama3.2:1b">Llama 3.2 (1B)</option>
+                        <option value="qwen2.5:1.5b">Qwen 2.5 (1.5B)</option>
+                    </select>
+                    <button class="btn btn-sm btn-outline-secondary w-100" onclick="loadModel()">Charger le modèle</button>
+                </div>
+
+                <div class="card p-3 shadow-sm bg-white">
+                    <h6>Dernières Métriques d'IA</h6>
+                    <div id="metrics" class="metric-card">
+                        <div>Temps : <span id="m_time">-</span> s</div>
+                        <div>CPU : <span id="m_cpu">-</span> %</div>
+                        <div>RAM : <span id="m_ram">-</span> MB</div>
+                        <div>Tokens : <span id="m_tokens">-</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/user.js"></script>
+</body>
+</html>

@@ -14,6 +14,8 @@ class SLMLoader(ISLM):
         self.DOWNLOAD_DIR = "models/modelsLammacpp"
         
         self.model_mapping = {
+            "assistant_generique_feten": {"repo": "local", "file": "assistant_generique_final.gguf"},
+            "medical-feten": {"repo": "local", "file": "medical_assistant_final_v2.gguf"},
             "llama3.2:1b": {"repo": "bartowski/Llama-3.2-1B-Instruct-GGUF", "file": "Llama-3.2-1B-Instruct-Q4_K_M.gguf"},
             "qwen2.5:1.5b": {"repo": "bartowski/Qwen2.5-1.5B-Instruct-GGUF", "file": "Qwen2.5-1.5B-Instruct-Q4_K_M.gguf"},
             "gemma2:2b": {"repo": "bartowski/gemma-2-2b-it-GGUF", "file": "gemma-2-2b-it-Q4_K_M.gguf"},
@@ -41,16 +43,22 @@ class SLMLoader(ISLM):
         try:
             self._free_memory()
             if model_name not in self.model_mapping:
-                return f"ERREUR : Le modèle '{model_name}' n'est pas configuré dans le dictionnaire de mapping."
+                return f"ERREUR : Le modèle '{model_name}' n'est pas configuré."
 
             info = self.model_mapping[model_name]
-            print(f"--- [AUTO-LOAD] Vérification locale de : {model_name} ---")
 
-            model_path = hf_hub_download(
-                repo_id=info["repo"],
-                filename=info["file"],
-                local_dir=self.DOWNLOAD_DIR
-            )
+            # --- CORRECTION ICI ---
+            if info["repo"] == "local":
+                print(f"--- [LOCAL-LOAD] Chargement direct du fichier : {info['file']} ---")
+                model_path = os.path.join(self.DOWNLOAD_DIR, info["file"])
+            else:
+                print(f"--- [AUTO-LOAD] Téléchargement depuis HF : {model_name} ---")
+                model_path = hf_hub_download(
+                    repo_id=info["repo"],
+                    filename=info["file"],
+                    local_dir=self.DOWNLOAD_DIR
+                )
+            # ----------------------
 
             print(f"--- [LLAMACPP] Chargement du moteur C++ : {model_path} ---")
             self.model = Llama(
@@ -61,10 +69,10 @@ class SLMLoader(ISLM):
             )
             
             self.current_model_name = model_name
-            return f"Succès : {model_name} est prêt."
+            return f"Succès : {model_name} (Fine-tuné) est prêt."
 
         except Exception as e:
-            return f"ERREUR CHARGEMENT AUTO : {str(e)}"
+            return f"ERREUR CHARGEMENT : {str(e)}"        
 
     def generate(self, system_prompt: str, user_prompt: str):
         if not self.model: 

@@ -1,5 +1,6 @@
 #commande de lancement:
  python -m uvicorn app.main:app --reload
+
 #puis visit:
 http://127.0.0.1:8000
 
@@ -30,3 +31,29 @@ Sinon :
 Téléchargement automatique depuis Hugging Face
 Monitoring des performances
 Les résultats sont stockés dans MongoDB :
+
+
+
+
+
+
+
+
+
+
+
+
+##interafece admin+login+creation de compte :
+installation des dépendances suiivantes:
+pip install "python-jose[cryptography]" passlib[bcrypt] email-validator pymongo
+
+
+
+#lancer app
+#python -m uvicorn main:app --reload
+
+
+{
+  "system_prompt": "You are a professional medical assistant. Your mission is to help patients book, cancel, or reschedule their medical appointments with precision and politeness.",
+  "user_prompt": "I have an ultrasound scheduled for tomorrow at 9 AM but I can't make it. Can we reschedule to the same time on Wednesday?"
+}
