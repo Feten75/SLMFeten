@@ -57,3 +57,12 @@ pip install "python-jose[cryptography]" passlib[bcrypt] email-validator pymongo
   "system_prompt": "You are a professional medical assistant. Your mission is to help patients book, cancel, or reschedule their medical appointments with precision and politeness.",
   "user_prompt": "I have an ultrasound scheduled for tomorrow at 9 AM but I can't make it. Can we reschedule to the same time on Wednesday?"
 }
+
+#exemples de test1:
+{
+  "system_prompt": "You are a professional assistant. Your role is to help clients book, cancel, or reschedule appointments with precision and politeness",
+  "user_prompt": "hi i have a maintenance on april 15th but i need to change the time"
+}
+
+#hi i have an appointment for a session but i need to cancel i
+#hi i was hoping to book an appointment
