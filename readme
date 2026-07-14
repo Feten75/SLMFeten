@@ -66,3 +66,68 @@ pip install "python-jose[cryptography]" passlib[bcrypt] email-validator pymongo
 
 #hi i have an appointment for a session but i need to cancel i
 #hi i was hoping to book an appointment
+
+///////////////////////////////////////////////////////////////////////
+##Category 1: New Appointment Booking (15):
+
+1/Hello, I'd like to schedule a dental checkup for next week.
+2/Hi! Can I book a haircut for Saturday morning?
+3/I'd like to sign up for a yoga class tomorrow, please.
+4/Is it possible to schedule a massage for Monday afternoon?
+5/Hello, I need to book a medical consultation for Wednesday.
+6/I need to schedule a car maintenance appointment for Friday.
+7/Can you help me book a pelvic ultrasound for the 15th of this month?
+8/Hi, I'd like to reserve a time slot for a massage at the City Center branch.
+9/Do you have any availability for a dental checkup tomorrow morning?
+10/I'd like to book a yoga class. What availability do you have on Thursday?
+11/Hello, my name is Smith, and I'd like to schedule a consultation.
+12/I'm looking for an appointment for a haircut. Is the West Plaza office open?
+13/I'd like to schedule an ultrasound as soon as possible.
+14/Can you add me to tomorrow evening's yoga class?
+15/I'd like to book a massage. My health ID is ID-12345.
+
+
+##Category 2: Rescheduling Appointments (10)
+1/Hello, I have a dental checkup tomorrow, but something came up. Can I reschedule it?
+2/I need to change the time of my Friday haircut. Is that possible?
+3/I'd like to move my yoga class from Monday to next Tuesday.
+4/My massage appointment at 10:30 AM no longer works for me. Do you have anything in the afternoon?
+5/Can you move my consultation from the Downtown office to the North Branch?
+6/Hello, I'd like to move my car maintenance appointment to tomorrow morning.
+7/I have an ultrasound scheduled for April 10th, but I'd prefer April 12th. Is that available?
+8/Hi, I need to change my yoga class time. What other options do you have?
+9/Can I change my massage reservation? I'd prefer 2:00 PM instead of 9:00 AM.
+10/My name is Miller. I have a consultation tomorrow. Can I postpone it until next week?
+
+
+##Category 3: Appointment Cancellation (10)
+1/I'm sorry, but I need to cancel my massage scheduled for Monday.
+2/Can you cancel my reservation for Friday's yoga class?
+3/I won't be able to make my haircut appointment on Wednesday. Please cancel it.
+4/Hello, I'd like to cancel my dental checkup at the Downtown clinic.
+5/I need to cancel my consultation for tomorrow. My ID is ID-53824.
+6/Please remove my name from the list for Friday's car maintenance appointment.
+7/I'd like to cancel my ultrasound scheduled for next Monday.
+8/It turns out I can't make it to the yoga class. Please cancel my appointment.
+9/Hello, I'd like to cancel everything I have scheduled for Tuesday.
+10/Sorry, I need to cancel my massage at the City Center branch.
+
+
+##Category 4: Information Requests (Location & Hours) (10)
+1/Where exactly is your Downtown clinic located?
+2/What are the opening hours of the West Plaza office?
+3/How can I get to the City Center branch from the train station?
+4/What time does the North Branch close on Fridays?
+5/Is the West Plaza office open on weekends?
+6/Could you give me the exact address of your clinic?
+7/Is there parking available near the City Center branch?
+8/What services are offered at the North Branch?
+9/Until what time is the Downtown office open today?
+10/Where exactly should I go for my ultrasound appointment?
+
+##Category 5: Complex & Edge Cases (5)
+1/Hello, I'd like to book both a massage and a yoga class on the same day.
+2/I don't know my health ID. Can I still book an appointment?
+3/I need an urgent consultation. Do you have an available appointment within the next hour?
+4/I'd like to book haircuts for both me and my friend on Friday.
+5/Hello! I can't remember if my appointment is at 10:30 AM or 11:15 AM. Could you check for me?

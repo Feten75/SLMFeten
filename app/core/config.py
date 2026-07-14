@@ -15,5 +15,6 @@ AVAILABLE_MODELS = [
     'qwen3.5:2b',
     'mistral:7b',
     'medical-feten',
-    'assistant_generique_feten'
+    'assistant_generique_feten',
+    'assistant_generiquev2'
 ]
