@@ -131,3 +131,110 @@ pip install "python-jose[cryptography]" passlib[bcrypt] email-validator pymongo
 3/I need an urgent consultation. Do you have an available appointment within the next hour?
 4/I'd like to book haircuts for both me and my friend on Friday.
 5/Hello! I can't remember if my appointment is at 10:30 AM or 11:15 AM. Could you check for me?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////
+with memory:
+
+{
+  "call_id": "MANUAL_TEST_01",
+  "phone": "+21698123456",
+  "user_prompt": "..."
+}
+
+
+Les 10 conversations à tester (une par call_id) :
+
+1 — MANUAL_TEST_01 (chemin nominal)
+
+Hello, I want to book an appointment for haircut.
+Can we do Monday at 10 AM?
+My name is Smith.
+No, that's all, thank you!
+
+2 — MANUAL_TEST_02 ("I'm" au lieu de "my name is")
+
+Hi, I need a dentist appointment.
+Friday at 2 PM works for me.
+I'm Wilson.
+That's all, thanks.
+
+3 — MANUAL_TEST_03 (jour et heure séparés)
+
+I want to book a car repair.
+Wednesday please.
+10 AM works.
+My name is Dridi.
+
+4 — MANUAL_TEST_04 (changement d'heure avant le nom)
+
+Book me a haircut.
+Tuesday at 10 AM.
+Actually, can we do 3 PM instead?
+My name is Jones.
+
+5 — MANUAL_TEST_05 (nom donné avant qu'on le demande)
+
+Hi, my name is Miller and I want a dentist appointment.
+Thursday at 11 AM please.
+
+6 — MANUAL_TEST_06 (modification après confirmation)
+
+I want a haircut appointment.
+Monday at 10 AM.
+My name is Smith.
+Actually can we move it to Tuesday at 10 AM instead?
+No that's everything, bye.
+
+7 — MANUAL_TEST_07 (réponse floue)
+
+Book a car repair for me.
+I don't know, whatever works.
+Wednesday at 10 AM then.
+My name is Wilson.
+
+8 — MANUAL_TEST_08 (question hors-sujet en plein flux)
+
+I'd like to book a haircut.
+What time do you close on Fridays?
+Ok let's do Friday at 10 AM.
+My name is Jones.
+
+9 — MANUAL_TEST_09 (deux services mentionnés)
+
+I need a dentist appointment, not a haircut.
+Monday at 10 AM.
+My name is Dridi.
+
+10 — MANUAL_TEST_10 (annulation — teste la nouvelle GARDE 0)
+
+I want to book a car repair.
+Actually, never mind, cancel that.
+
+Pour vérifier l'enregistrement en base après vos tests :

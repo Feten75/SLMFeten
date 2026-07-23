@@ -1,32 +1,48 @@
 from pymongo import MongoClient
+from pymongo.errors import PyMongoError
 
 class MongoRepository:
     def __init__(self):
-        # Connexion à MongoDB
-        self.client = MongoClient("mongodb://localhost:27017")
+        self.client = MongoClient("mongodb://localhost:27017", serverSelectionTimeoutMS=3000)
         self.db = self.client["slm_database"]
-        
-        # Collection pour les utilisateurs
         self.users = self.db["users"]
-        
-        # Collection pour l'historique et les métriques (C'est ce qui manquait !)
         self.logs = self.db["logs"]
+        self.conversations = self.db["full_conversation_slmv4"]  # cohérent avec save_full_log
 
     def find_by_username(self, username: str):
-        """Cherche un utilisateur par son pseudo"""
         return self.users.find_one({"username": username})
 
     def create_user(self, user_data: dict):
-        """Crée un nouvel utilisateur"""
         return self.users.insert_one(user_data)
 
     def save(self, log_data: dict):
-        """
-        Enregistre les données d'inférence (réponse IA, temps, RAM, CPU)
-        Cette méthode est appelée par SLMService.infer()
-        """
         try:
             return self.logs.insert_one(log_data)
-        except Exception as e:
-            print(f"❌ Erreur lors de l'enregistrement dans MongoDB : {e}")
+        except PyMongoError as e:
+            print(f"❌ Erreur MongoDB (save): {e}")
             return None
+
+    def save_full_log(self, call_id: str, phone: str, slots_dict: dict, turn_data: dict):
+        try:
+            return self.conversations.update_one(
+                {"call_id": call_id},
+                {
+                    "$set": {
+                        "phone": phone,
+                        "extracted_info": {
+                            "username": slots_dict.get("username"),
+                            "date": slots_dict.get("date"),
+                            "time": slots_dict.get("heure"),
+                            "service": slots_dict.get("service"),
+                            "location": slots_dict.get("lieu"),
+                        },
+                        "last_update": turn_data["timestamp"],
+                    },
+                    "$push": {"conversation_history": turn_data},
+                },
+                upsert=True,
+            )
+        except PyMongoError as e:
+            print(f"❌ Erreur MongoDB (save_full_log): {e}")
+            return None
+        
