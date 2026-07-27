@@ -95,7 +95,7 @@ class SLMLoader(ISLM):
         start_time = time.time()
         output = self.model(
             prompt, 
-            max_tokens=40, 
+            max_tokens=150, 
             stop=["<|im_end|>", "<|endoftext|>", "User:"], 
             temperature=0.1
         )

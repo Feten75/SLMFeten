@@ -7,7 +7,7 @@ class MongoRepository:
         self.db = self.client["slm_database"]
         self.users = self.db["users"]
         self.logs = self.db["logs"]
-        self.conversations = self.db["full_conversation_slmv4"]  # cohérent avec save_full_log
+        self.conversations = self.db["full_conversation_slmv5"] 
 
     def find_by_username(self, username: str):
         return self.users.find_one({"username": username})
