@@ -1,0 +1,112 @@
+{
+    "jobName": "transcription-job-2024-03-27T20-53-55Z-call-e16b85db-a261-4b85-a331-97d2751ef253-1734650709",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "What for the"
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "43.069",
+                    "end_time": "44.029",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "43.549",
+                            "end_time": "43.83"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "43.83",
+                            "end_time": "44.029"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "44.029",
+                    "end_time": "44.419",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "44.029",
+                            "end_time": "44.299"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 2
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.988",
+                        "content": "What"
+                    }
+                ],
+                "start_time": "43.549",
+                "end_time": "43.83",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 1,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.86",
+                        "content": "for"
+                    }
+                ],
+                "start_time": "43.83",
+                "end_time": "44.029",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 2,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.964",
+                        "content": "the"
+                    }
+                ],
+                "start_time": "44.029",
+                "end_time": "44.299",
+                "speaker_label": "spk_1"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "What for",
+                "start_time": "43.069",
+                "end_time": "44.029",
+                "speaker_label": "spk_0",
+                "items": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "id": 1,
+                "transcript": "the",
+                "start_time": "44.029",
+                "end_time": "44.419",
+                "speaker_label": "spk_1",
+                "items": [
+                    2
+                ]
+            }
+        ]
+    }
+}

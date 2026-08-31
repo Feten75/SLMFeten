@@ -47,8 +47,6 @@ class SLMLoader(ISLM):
                 return f"ERREUR : Le modèle '{model_name}' n'est pas configuré."
 
             info = self.model_mapping[model_name]
-
-            # 1. On construit le chemin relatif de base
             if info["repo"] == "local":
                 rel_path = os.path.join(self.DOWNLOAD_DIR, info["file"])
             else:
@@ -57,18 +55,11 @@ class SLMLoader(ISLM):
                     filename=info["file"],
                     local_dir=self.DOWNLOAD_DIR
                 )
-
-            # 2. ON FORCE LE CHEMIN ABSOLU (C'est l'étape cruciale pour Windows)
-            # Cela transforme "models/modelsLammacpp/..." en "C:\Users\Feten Dridi\..."
             model_path = os.path.abspath(rel_path)
-            
-            # 3. Petit Print pour vérifier dans ton terminal
             print(f"--- [DEBUG] Chemin envoyé au moteur : {model_path} ---")
 
             if not os.path.exists(model_path):
                 return f"ERREUR : Fichier introuvable à l'adresse : {model_path}"
-
-            # 4. Chargement
             self.model = Llama(
                 model_path=model_path,
                 n_ctx=1024,

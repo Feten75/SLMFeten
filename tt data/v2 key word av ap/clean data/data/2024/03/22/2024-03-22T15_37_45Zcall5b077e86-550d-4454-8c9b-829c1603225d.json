@@ -1,0 +1,200 @@
+{
+    "jobName": "transcription-job-2024-03-22T15-37-45Z-call-5b077e86-550d-4454-8c9b-829c1603225d-7b84f0ef-e738-4097-b94e-c0cc3d1d1490",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "So this is another day you know."
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "0.3",
+                    "end_time": "2.279",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "0.31",
+                            "end_time": "0.319"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "1.419",
+                            "end_time": "1.5"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "1.5",
+                            "end_time": "1.779"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "1.779",
+                            "end_time": "2.059"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "2.059",
+                            "end_time": "2.279"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "3.529",
+                    "end_time": "4.579",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "3.529",
+                            "end_time": "3.539"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "3.539",
+                            "end_time": "3.549"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 2
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.749",
+                        "content": "So"
+                    }
+                ],
+                "start_time": "0.31",
+                "end_time": "0.319",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 1,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "this"
+                    }
+                ],
+                "start_time": "1.419",
+                "end_time": "1.5",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 2,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "is"
+                    }
+                ],
+                "start_time": "1.5",
+                "end_time": "1.779",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 3,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "another"
+                    }
+                ],
+                "start_time": "1.779",
+                "end_time": "2.059",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 4,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.971",
+                        "content": "day"
+                    }
+                ],
+                "start_time": "2.059",
+                "end_time": "2.279",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 5,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.868",
+                        "content": "you"
+                    }
+                ],
+                "start_time": "3.529",
+                "end_time": "3.539",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 6,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.952",
+                        "content": "know"
+                    }
+                ],
+                "start_time": "3.539",
+                "end_time": "3.549",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 7,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_1"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "So this is another day",
+                "start_time": "0.3",
+                "end_time": "2.279",
+                "speaker_label": "spk_0",
+                "items": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4
+                ]
+            },
+            {
+                "id": 1,
+                "transcript": "you know.",
+                "start_time": "3.529",
+                "end_time": "4.579",
+                "speaker_label": "spk_1",
+                "items": [
+                    5,
+                    6,
+                    7
+                ]
+            }
+        ]
+    }
+}

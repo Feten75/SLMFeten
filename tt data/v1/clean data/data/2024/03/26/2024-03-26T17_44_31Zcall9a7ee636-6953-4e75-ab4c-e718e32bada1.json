@@ -1,0 +1,235 @@
+{
+    "jobName": "transcription-job-2024-03-26T17-44-31Z-call-9a7ee636-6953-4e75-ab4c-e718e32bada1-867c3256-786e-4605-8ef8-7976671eafe9",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "Thank you for calling Acadia Medical Clinic and."
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "0.0",
+                    "end_time": "0.68",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "0.009",
+                            "end_time": "0.079"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "0.079",
+                            "end_time": "0.2"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "0.2",
+                            "end_time": "0.4"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "0.4",
+                            "end_time": "0.68"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "0.68",
+                    "end_time": "1.95",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "0.68",
+                            "end_time": "1.21"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "1.21",
+                            "end_time": "1.6"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "1.6",
+                            "end_time": "1.95"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "1.95",
+                    "end_time": "2.46",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "1.95",
+                            "end_time": "2.25"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 2
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.433",
+                        "content": "Thank"
+                    }
+                ],
+                "start_time": "0.009",
+                "end_time": "0.079",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 1,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.794",
+                        "content": "you"
+                    }
+                ],
+                "start_time": "0.079",
+                "end_time": "0.2",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 2,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "for"
+                    }
+                ],
+                "start_time": "0.2",
+                "end_time": "0.4",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 3,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "calling"
+                    }
+                ],
+                "start_time": "0.4",
+                "end_time": "0.68",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 4,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.987",
+                        "content": "Acadia"
+                    }
+                ],
+                "start_time": "0.68",
+                "end_time": "1.21",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 5,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.989",
+                        "content": "Medical"
+                    }
+                ],
+                "start_time": "1.21",
+                "end_time": "1.6",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 6,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.995",
+                        "content": "Clinic"
+                    }
+                ],
+                "start_time": "1.6",
+                "end_time": "1.95",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 7,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "and"
+                    }
+                ],
+                "start_time": "1.95",
+                "end_time": "2.25",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 8,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_0"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "Thank you for calling",
+                "start_time": "0.0",
+                "end_time": "0.68",
+                "speaker_label": "spk_0",
+                "items": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "id": 1,
+                "transcript": "Acadia Medical Clinic",
+                "start_time": "0.68",
+                "end_time": "1.95",
+                "speaker_label": "spk_1",
+                "items": [
+                    4,
+                    5,
+                    6
+                ]
+            },
+            {
+                "id": 2,
+                "transcript": "and.",
+                "start_time": "1.95",
+                "end_time": "2.46",
+                "speaker_label": "spk_0",
+                "items": [
+                    7,
+                    8
+                ]
+            }
+        ]
+    }
+}

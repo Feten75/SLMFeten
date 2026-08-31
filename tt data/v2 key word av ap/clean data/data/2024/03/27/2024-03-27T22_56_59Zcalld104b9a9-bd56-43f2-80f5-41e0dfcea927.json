@@ -1,0 +1,77 @@
+{
+    "jobName": "transcription-job-2024-03-27T22-56-59Z-call-d104b9a9-bd56-43f2-80f5-41e0dfcea927-1734651634",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "I guess"
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "4.039",
+                    "end_time": "5.42",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "4.5",
+                            "end_time": "4.559"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "4.559",
+                            "end_time": "4.599"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 1
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.55",
+                        "content": "I"
+                    }
+                ],
+                "start_time": "4.5",
+                "end_time": "4.559",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 1,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.505",
+                        "content": "guess"
+                    }
+                ],
+                "start_time": "4.559",
+                "end_time": "4.599",
+                "speaker_label": "spk_0"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "I guess",
+                "start_time": "4.039",
+                "end_time": "5.42",
+                "speaker_label": "spk_0",
+                "items": [
+                    0,
+                    1
+                ]
+            }
+        ]
+    }
+}

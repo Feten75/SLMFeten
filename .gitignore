@@ -1,8 +1,11 @@
 # Ignorer les dossiers de modèles ML
 model_cache/
 models/
+tt data/v2 key word av ap/assistant_generiquev2.gguf
+
 
 # Ignorer les fichiers binaires lourds
 *.bin
 *.pt
 *.ckpt
+*.gguf

@@ -1,0 +1,246 @@
+{
+    "jobName": "transcription-job-2024-03-27T20-49-55Z-call-078228f1-e4f1-4690-b7d2-adba41f040fe-1734650516",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "Hello? Yeah. Hello? Well Hello?"
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "7.44",
+                    "end_time": "8.369",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "7.449",
+                            "end_time": "8.229"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "27.45",
+                    "end_time": "27.77",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "27.53",
+                            "end_time": "27.69"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "32.639",
+                    "end_time": "34.27",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "32.65",
+                            "end_time": "32.659"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "37.79",
+                    "end_time": "38.49",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "37.909",
+                            "end_time": "37.99"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "57.61",
+                    "end_time": "58.49",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "57.619",
+                            "end_time": "58.299"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 2
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "Hello"
+                    }
+                ],
+                "start_time": "7.449",
+                "end_time": "8.229",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 1,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "?"
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 2,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.005",
+                        "content": "Yeah"
+                    }
+                ],
+                "start_time": "27.53",
+                "end_time": "27.69",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 3,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 4,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "Hello"
+                    }
+                ],
+                "start_time": "32.65",
+                "end_time": "32.659",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 5,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "?"
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 6,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.399",
+                        "content": "Well"
+                    }
+                ],
+                "start_time": "37.909",
+                "end_time": "37.99",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 7,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "Hello"
+                    }
+                ],
+                "start_time": "57.619",
+                "end_time": "58.299",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 8,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "?"
+                    }
+                ],
+                "speaker_label": "spk_0"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "Hello?",
+                "start_time": "7.44",
+                "end_time": "8.369",
+                "speaker_label": "spk_0",
+                "items": [
+                    0,
+                    1
+                ]
+            },
+            {
+                "id": 1,
+                "transcript": "Yeah.",
+                "start_time": "27.45",
+                "end_time": "27.77",
+                "speaker_label": "spk_1",
+                "items": [
+                    2,
+                    3
+                ]
+            },
+            {
+                "id": 2,
+                "transcript": "Hello?",
+                "start_time": "32.639",
+                "end_time": "34.27",
+                "speaker_label": "spk_1",
+                "items": [
+                    4,
+                    5
+                ]
+            },
+            {
+                "id": 3,
+                "transcript": "Well",
+                "start_time": "37.79",
+                "end_time": "38.49",
+                "speaker_label": "spk_1",
+                "items": [
+                    6
+                ]
+            },
+            {
+                "id": 4,
+                "transcript": "Hello?",
+                "start_time": "57.61",
+                "end_time": "58.49",
+                "speaker_label": "spk_0",
+                "items": [
+                    7,
+                    8
+                ]
+            }
+        ]
+    }
+}

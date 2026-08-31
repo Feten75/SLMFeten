@@ -1,0 +1,386 @@
+{
+    "jobName": "transcription-job-2024-03-21T16-03-25Z-call-3ecf6f32-0b43-4be7-b03f-a7c05896776c-1734637039",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "Thank you for calling Waffler Diagnostics. Please listen to all of the prompts before making a selection."
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "1.59",
+                    "end_time": "7.039",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "1.75",
+                            "end_time": "1.87"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "1.87",
+                            "end_time": "2.069"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "2.069",
+                            "end_time": "2.269"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "2.269",
+                            "end_time": "2.549"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "2.549",
+                            "end_time": "3.029"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "3.029",
+                            "end_time": "3.99"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "4.15",
+                            "end_time": "4.42"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "4.42",
+                            "end_time": "4.67"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "4.67",
+                            "end_time": "4.829"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "4.829",
+                            "end_time": "4.949"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "4.949",
+                            "end_time": "5.099"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "5.099",
+                            "end_time": "5.269"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "5.269",
+                            "end_time": "5.789"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "5.789",
+                            "end_time": "5.989"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "5.989",
+                            "end_time": "6.179"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "6.179",
+                            "end_time": "6.289"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "6.289",
+                            "end_time": "6.909"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 1
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "Thank"
+                    }
+                ],
+                "start_time": "1.75",
+                "end_time": "1.87",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 1,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "you"
+                    }
+                ],
+                "start_time": "1.87",
+                "end_time": "2.069",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 2,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "for"
+                    }
+                ],
+                "start_time": "2.069",
+                "end_time": "2.269",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 3,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "calling"
+                    }
+                ],
+                "start_time": "2.269",
+                "end_time": "2.549",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 4,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.848",
+                        "content": "Waffler"
+                    }
+                ],
+                "start_time": "2.549",
+                "end_time": "3.029",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 5,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.993",
+                        "content": "Diagnostics"
+                    }
+                ],
+                "start_time": "3.029",
+                "end_time": "3.99",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 6,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 7,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "Please"
+                    }
+                ],
+                "start_time": "4.15",
+                "end_time": "4.42",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 8,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "listen"
+                    }
+                ],
+                "start_time": "4.42",
+                "end_time": "4.67",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 9,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "to"
+                    }
+                ],
+                "start_time": "4.67",
+                "end_time": "4.829",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 10,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "all"
+                    }
+                ],
+                "start_time": "4.829",
+                "end_time": "4.949",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 11,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "of"
+                    }
+                ],
+                "start_time": "4.949",
+                "end_time": "5.099",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 12,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "the"
+                    }
+                ],
+                "start_time": "5.099",
+                "end_time": "5.269",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 13,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.993",
+                        "content": "prompts"
+                    }
+                ],
+                "start_time": "5.269",
+                "end_time": "5.789",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 14,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "before"
+                    }
+                ],
+                "start_time": "5.789",
+                "end_time": "5.989",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 15,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "making"
+                    }
+                ],
+                "start_time": "5.989",
+                "end_time": "6.179",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 16,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "a"
+                    }
+                ],
+                "start_time": "6.179",
+                "end_time": "6.289",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 17,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "selection"
+                    }
+                ],
+                "start_time": "6.289",
+                "end_time": "6.909",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 18,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_0"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "Thank you for calling Waffler Diagnostics. Please listen to all of the prompts before making a selection.",
+                "start_time": "1.59",
+                "end_time": "7.039",
+                "speaker_label": "spk_0",
+                "items": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18
+                ]
+            }
+        ]
+    }
+}

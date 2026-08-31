@@ -19,7 +19,7 @@ class MongoRepository:
         try:
             return self.logs.insert_one(log_data)
         except PyMongoError as e:
-            print(f"❌ Erreur MongoDB (save): {e}")
+            print(f"Erreur MongoDB (save): {e}")
             return None
 
     def save_full_log(self, call_id: str, phone: str, slots_dict: dict, turn_data: dict):
@@ -43,6 +43,6 @@ class MongoRepository:
                 upsert=True,
             )
         except PyMongoError as e:
-            print(f"❌ Erreur MongoDB (save_full_log): {e}")
+            print(f"Erreur MongoDB (save_full_log): {e}")
             return None
         

@@ -1,0 +1,3262 @@
+{
+    "jobName": "transcription-job-2024-03-21T15-07-16Z-call-7272af3e-d7b2-4579-a213-a159a296b167-1734636267",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "Hi, this is Wessler Diagnostics. How may I help? Oh yes, I just talked to someone who said that um uh my CT scan was bumped up because um there was a cancellation with you tomorrow and uh but I sorry? Uh sorry, because I'm under the impression that you were routed to a different clinic because we don't offer CT scan in our clinic. Oh, so, um, should I, could, would you happen to have the number that it's it's at Richmond Road diagnostic Center? Um, no, I don't have their, uh, phone number because we are diagnostic. Oh, and I'm, I'm with Franklin, is that what you said? I'm so sorry. And I'm supposed to be with Franklin Diagnostic Center? Yes, that's actually correct, yes. OK, I'll check it out thank you very much bye."
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "0.0",
+                    "end_time": "4.19",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "0.009",
+                            "end_time": "0.019"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "0.029",
+                            "end_time": "0.039"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "0.039",
+                            "end_time": "0.05"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "0.05",
+                            "end_time": "2.789"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "2.789",
+                            "end_time": "3.4"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "3.48",
+                            "end_time": "3.599"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "3.599",
+                            "end_time": "3.71"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "3.71",
+                            "end_time": "3.759"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "3.759",
+                            "end_time": "4.19"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "4.84",
+                    "end_time": "13.159",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "4.84",
+                            "end_time": "5.01"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "5.01",
+                            "end_time": "5.219"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "5.239",
+                            "end_time": "5.4"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "5.4",
+                            "end_time": "5.599"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "5.599",
+                            "end_time": "5.84"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "5.84",
+                            "end_time": "5.96"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "5.96",
+                            "end_time": "6.28"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "6.28",
+                            "end_time": "6.559"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "6.559",
+                            "end_time": "6.8"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "6.8",
+                            "end_time": "7.079"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "7.079",
+                            "end_time": "7.59"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "8.0",
+                            "end_time": "8.18"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "8.18",
+                            "end_time": "8.359"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "8.359",
+                            "end_time": "8.739"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "8.739",
+                            "end_time": "9.25"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "9.25",
+                            "end_time": "9.39"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "9.39",
+                            "end_time": "9.989"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "9.989",
+                            "end_time": "10.6"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "10.6",
+                            "end_time": "10.979"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "10.979",
+                            "end_time": "11.14"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "11.14",
+                            "end_time": "11.279"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "11.279",
+                            "end_time": "11.479"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "11.479",
+                            "end_time": "11.52"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "11.52",
+                            "end_time": "12.359"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "12.359",
+                            "end_time": "12.6"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "12.6",
+                            "end_time": "13.159"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "13.159",
+                    "end_time": "13.67",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "13.159",
+                            "end_time": "13.67"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "15.159",
+                    "end_time": "17.0",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "15.159",
+                            "end_time": "15.439"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "15.439",
+                            "end_time": "15.81"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "15.81",
+                            "end_time": "15.96"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "15.96",
+                            "end_time": "16.479"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "16.479",
+                            "end_time": "17.0"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "17.12",
+                    "end_time": "18.469",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "17.12",
+                            "end_time": "17.299"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "17.299",
+                            "end_time": "18.03"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "18.04",
+                            "end_time": "18.469"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "18.469",
+                    "end_time": "19.12",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "18.469",
+                            "end_time": "19.12"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "19.12",
+                    "end_time": "25.299",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "19.12",
+                            "end_time": "19.399"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "19.399",
+                            "end_time": "19.479"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "19.479",
+                            "end_time": "19.94"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "19.94",
+                            "end_time": "20.149"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "20.149",
+                            "end_time": "20.28"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "20.28",
+                            "end_time": "20.43"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "20.43",
+                            "end_time": "20.84"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "20.84",
+                            "end_time": "20.959"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "20.959",
+                            "end_time": "21.079"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "21.079",
+                            "end_time": "21.36"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "21.36",
+                            "end_time": "21.76"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "21.76",
+                            "end_time": "22.09"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "22.09",
+                            "end_time": "22.319"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "22.319",
+                            "end_time": "22.879"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "22.879",
+                            "end_time": "23.629"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "23.629",
+                            "end_time": "23.92"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "23.92",
+                            "end_time": "24.28"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "24.28",
+                            "end_time": "24.399"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "24.399",
+                            "end_time": "24.559"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "24.559",
+                            "end_time": "25.19"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "25.549",
+                    "end_time": "32.86",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "25.629",
+                            "end_time": "26.069"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "26.149",
+                            "end_time": "26.35"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "26.43",
+                            "end_time": "26.69"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "26.78",
+                            "end_time": "26.909"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "26.909",
+                            "end_time": "27.399"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "27.549",
+                            "end_time": "27.829"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "27.95",
+                            "end_time": "28.04"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "28.04",
+                            "end_time": "28.229"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "28.229",
+                            "end_time": "28.489"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "28.489",
+                            "end_time": "28.5"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "28.5",
+                            "end_time": "28.79"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "28.79",
+                            "end_time": "28.989"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "28.989",
+                            "end_time": "29.59"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "29.59",
+                            "end_time": "29.75"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "29.75",
+                            "end_time": "30.079"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "30.079",
+                            "end_time": "30.6"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "30.6",
+                            "end_time": "30.87"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "30.87",
+                            "end_time": "31.34"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "31.34",
+                            "end_time": "31.569"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "31.569",
+                            "end_time": "32.31"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "32.31",
+                            "end_time": "32.86"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "33.02",
+                    "end_time": "36.389",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "33.02",
+                            "end_time": "33.349"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "33.43",
+                            "end_time": "33.459"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "33.59",
+                            "end_time": "33.79"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "33.79",
+                            "end_time": "34.029"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "34.029",
+                            "end_time": "34.31"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "34.31",
+                            "end_time": "34.509"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "34.59",
+                            "end_time": "34.939"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "34.99",
+                            "end_time": "35.27"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "35.27",
+                            "end_time": "35.669"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "35.669",
+                            "end_time": "36.229"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "36.229",
+                            "end_time": "36.389"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "36.389",
+                    "end_time": "36.959",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "36.389",
+                            "end_time": "36.959"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "36.959",
+                    "end_time": "38.24",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "36.959",
+                            "end_time": "38.24"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "38.869",
+                    "end_time": "41.619",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "38.869",
+                            "end_time": "39.04"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "39.06",
+                            "end_time": "39.31"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "39.31",
+                            "end_time": "39.549"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "39.709",
+                            "end_time": "39.919"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "39.919",
+                            "end_time": "40.15"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "40.15",
+                            "end_time": "40.59"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "40.63",
+                            "end_time": "40.79"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "40.79",
+                            "end_time": "40.95"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "40.95",
+                            "end_time": "41.069"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "41.069",
+                            "end_time": "41.25"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "41.25",
+                            "end_time": "41.619"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "41.83",
+                    "end_time": "42.77",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "41.83",
+                            "end_time": "42.11"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "42.11",
+                            "end_time": "42.31"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "42.31",
+                            "end_time": "42.659"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "43.59",
+                    "end_time": "46.549",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "43.619",
+                            "end_time": "43.939"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "43.95",
+                            "end_time": "44.31"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "44.31",
+                            "end_time": "44.5"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "44.5",
+                            "end_time": "44.619"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "44.619",
+                            "end_time": "44.75"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "44.75",
+                            "end_time": "44.99"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "44.99",
+                            "end_time": "45.509"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "45.509",
+                            "end_time": "46.15"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "46.15",
+                            "end_time": "46.549"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "46.639",
+                    "end_time": "48.79",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "46.639",
+                            "end_time": "46.65"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "47.229",
+                            "end_time": "47.47"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "47.47",
+                            "end_time": "48.06"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "48.06",
+                            "end_time": "48.27"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "48.29",
+                            "end_time": "48.659"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "49.88",
+                    "end_time": "50.56",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "49.889",
+                            "end_time": "50.56"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "50.799",
+                    "end_time": "52.189",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "50.799",
+                            "end_time": "51.08"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "51.08",
+                            "end_time": "51.259"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "51.259",
+                            "end_time": "51.36"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "51.36",
+                            "end_time": "51.639"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "51.639",
+                            "end_time": "51.799"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "51.799",
+                            "end_time": "51.959"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "51.959",
+                            "end_time": "52.189"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "52.189",
+                    "end_time": "53.29",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "52.189",
+                            "end_time": "52.669"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "52.84",
+                            "end_time": "53.159"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 2
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "Hi"
+                    }
+                ],
+                "start_time": "0.009",
+                "end_time": "0.019",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 1,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 2,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "this"
+                    }
+                ],
+                "start_time": "0.029",
+                "end_time": "0.039",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 3,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "is"
+                    }
+                ],
+                "start_time": "0.039",
+                "end_time": "0.05",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 4,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.248",
+                        "content": "Wessler"
+                    }
+                ],
+                "start_time": "0.05",
+                "end_time": "2.789",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 5,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.96",
+                        "content": "Diagnostics"
+                    }
+                ],
+                "start_time": "2.789",
+                "end_time": "3.4",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 6,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 7,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.952",
+                        "content": "How"
+                    }
+                ],
+                "start_time": "3.48",
+                "end_time": "3.599",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 8,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "may"
+                    }
+                ],
+                "start_time": "3.599",
+                "end_time": "3.71",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 9,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "I"
+                    }
+                ],
+                "start_time": "3.71",
+                "end_time": "3.759",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 10,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "help"
+                    }
+                ],
+                "start_time": "3.759",
+                "end_time": "4.19",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 11,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "?"
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 12,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.801",
+                        "content": "Oh"
+                    }
+                ],
+                "start_time": "4.84",
+                "end_time": "5.01",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 13,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "yes"
+                    }
+                ],
+                "start_time": "5.01",
+                "end_time": "5.219",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 14,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 15,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "I"
+                    }
+                ],
+                "start_time": "5.239",
+                "end_time": "5.4",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 16,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "just"
+                    }
+                ],
+                "start_time": "5.4",
+                "end_time": "5.599",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 17,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.993",
+                        "content": "talked"
+                    }
+                ],
+                "start_time": "5.599",
+                "end_time": "5.84",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 18,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "to"
+                    }
+                ],
+                "start_time": "5.84",
+                "end_time": "5.96",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 19,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "someone"
+                    }
+                ],
+                "start_time": "5.96",
+                "end_time": "6.28",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 20,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "who"
+                    }
+                ],
+                "start_time": "6.28",
+                "end_time": "6.559",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 21,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "said"
+                    }
+                ],
+                "start_time": "6.559",
+                "end_time": "6.8",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 22,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "that"
+                    }
+                ],
+                "start_time": "6.8",
+                "end_time": "7.079",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 23,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "um"
+                    }
+                ],
+                "start_time": "7.079",
+                "end_time": "7.59",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 24,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "uh"
+                    }
+                ],
+                "start_time": "8.0",
+                "end_time": "8.18",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 25,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "my"
+                    }
+                ],
+                "start_time": "8.18",
+                "end_time": "8.359",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 26,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "CT"
+                    }
+                ],
+                "start_time": "8.359",
+                "end_time": "8.739",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 27,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.991",
+                        "content": "scan"
+                    }
+                ],
+                "start_time": "8.739",
+                "end_time": "9.25",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 28,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "was"
+                    }
+                ],
+                "start_time": "9.25",
+                "end_time": "9.39",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 29,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.989",
+                        "content": "bumped"
+                    }
+                ],
+                "start_time": "9.39",
+                "end_time": "9.989",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 30,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "up"
+                    }
+                ],
+                "start_time": "9.989",
+                "end_time": "10.6",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 31,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "because"
+                    }
+                ],
+                "start_time": "10.6",
+                "end_time": "10.979",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 32,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "um"
+                    }
+                ],
+                "start_time": "10.979",
+                "end_time": "11.14",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 33,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "there"
+                    }
+                ],
+                "start_time": "11.14",
+                "end_time": "11.279",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 34,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "was"
+                    }
+                ],
+                "start_time": "11.279",
+                "end_time": "11.479",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 35,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.729",
+                        "content": "a"
+                    }
+                ],
+                "start_time": "11.479",
+                "end_time": "11.52",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 36,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "cancellation"
+                    }
+                ],
+                "start_time": "11.52",
+                "end_time": "12.359",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 37,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "with"
+                    }
+                ],
+                "start_time": "12.359",
+                "end_time": "12.6",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 38,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "you"
+                    }
+                ],
+                "start_time": "12.6",
+                "end_time": "13.159",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 39,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "tomorrow"
+                    }
+                ],
+                "start_time": "13.159",
+                "end_time": "13.67",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 40,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "and"
+                    }
+                ],
+                "start_time": "15.159",
+                "end_time": "15.439",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 41,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "uh"
+                    }
+                ],
+                "start_time": "15.439",
+                "end_time": "15.81",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 42,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "but"
+                    }
+                ],
+                "start_time": "15.81",
+                "end_time": "15.96",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 43,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "I"
+                    }
+                ],
+                "start_time": "15.96",
+                "end_time": "16.479",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 44,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "sorry"
+                    }
+                ],
+                "start_time": "16.479",
+                "end_time": "17.0",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 45,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "?"
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 46,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.704",
+                        "content": "Uh"
+                    }
+                ],
+                "start_time": "17.12",
+                "end_time": "17.299",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 47,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "sorry"
+                    }
+                ],
+                "start_time": "17.299",
+                "end_time": "18.03",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 48,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 49,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "because"
+                    }
+                ],
+                "start_time": "18.04",
+                "end_time": "18.469",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 50,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.921",
+                        "content": "I'm"
+                    }
+                ],
+                "start_time": "18.469",
+                "end_time": "19.12",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 51,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "under"
+                    }
+                ],
+                "start_time": "19.12",
+                "end_time": "19.399",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 52,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "the"
+                    }
+                ],
+                "start_time": "19.399",
+                "end_time": "19.479",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 53,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "impression"
+                    }
+                ],
+                "start_time": "19.479",
+                "end_time": "19.94",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 54,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "that"
+                    }
+                ],
+                "start_time": "19.94",
+                "end_time": "20.149",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 55,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "you"
+                    }
+                ],
+                "start_time": "20.149",
+                "end_time": "20.28",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 56,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "were"
+                    }
+                ],
+                "start_time": "20.28",
+                "end_time": "20.43",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 57,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.987",
+                        "content": "routed"
+                    }
+                ],
+                "start_time": "20.43",
+                "end_time": "20.84",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 58,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "to"
+                    }
+                ],
+                "start_time": "20.84",
+                "end_time": "20.959",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 59,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "a"
+                    }
+                ],
+                "start_time": "20.959",
+                "end_time": "21.079",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 60,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "different"
+                    }
+                ],
+                "start_time": "21.079",
+                "end_time": "21.36",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 61,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.995",
+                        "content": "clinic"
+                    }
+                ],
+                "start_time": "21.36",
+                "end_time": "21.76",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 62,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.972",
+                        "content": "because"
+                    }
+                ],
+                "start_time": "21.76",
+                "end_time": "22.09",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 63,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "we"
+                    }
+                ],
+                "start_time": "22.09",
+                "end_time": "22.319",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 64,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "don't"
+                    }
+                ],
+                "start_time": "22.319",
+                "end_time": "22.879",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 65,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "offer"
+                    }
+                ],
+                "start_time": "22.879",
+                "end_time": "23.629",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 66,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "CT"
+                    }
+                ],
+                "start_time": "23.629",
+                "end_time": "23.92",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 67,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.993",
+                        "content": "scan"
+                    }
+                ],
+                "start_time": "23.92",
+                "end_time": "24.28",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 68,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "in"
+                    }
+                ],
+                "start_time": "24.28",
+                "end_time": "24.399",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 69,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "our"
+                    }
+                ],
+                "start_time": "24.399",
+                "end_time": "24.559",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 70,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.995",
+                        "content": "clinic"
+                    }
+                ],
+                "start_time": "24.559",
+                "end_time": "25.19",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 71,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 72,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "Oh"
+                    }
+                ],
+                "start_time": "25.629",
+                "end_time": "26.069",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 73,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 74,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.984",
+                        "content": "so"
+                    }
+                ],
+                "start_time": "26.149",
+                "end_time": "26.35",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 75,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 76,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "um"
+                    }
+                ],
+                "start_time": "26.43",
+                "end_time": "26.69",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 77,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 78,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "should"
+                    }
+                ],
+                "start_time": "26.78",
+                "end_time": "26.909",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 79,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "I"
+                    }
+                ],
+                "start_time": "26.909",
+                "end_time": "27.399",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 80,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 81,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.993",
+                        "content": "could"
+                    }
+                ],
+                "start_time": "27.549",
+                "end_time": "27.829",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 82,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 83,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "would"
+                    }
+                ],
+                "start_time": "27.95",
+                "end_time": "28.04",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 84,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "you"
+                    }
+                ],
+                "start_time": "28.04",
+                "end_time": "28.229",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 85,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.957",
+                        "content": "happen"
+                    }
+                ],
+                "start_time": "28.229",
+                "end_time": "28.489",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 86,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "to"
+                    }
+                ],
+                "start_time": "28.489",
+                "end_time": "28.5",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 87,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "have"
+                    }
+                ],
+                "start_time": "28.5",
+                "end_time": "28.79",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 88,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "the"
+                    }
+                ],
+                "start_time": "28.79",
+                "end_time": "28.989",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 89,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "number"
+                    }
+                ],
+                "start_time": "28.989",
+                "end_time": "29.59",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 90,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.971",
+                        "content": "that"
+                    }
+                ],
+                "start_time": "29.59",
+                "end_time": "29.75",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 91,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.989",
+                        "content": "it's"
+                    }
+                ],
+                "start_time": "29.75",
+                "end_time": "30.079",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 92,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.987",
+                        "content": "it's"
+                    }
+                ],
+                "start_time": "30.079",
+                "end_time": "30.6",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 93,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.963",
+                        "content": "at"
+                    }
+                ],
+                "start_time": "30.6",
+                "end_time": "30.87",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 94,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.994",
+                        "content": "Richmond"
+                    }
+                ],
+                "start_time": "30.87",
+                "end_time": "31.34",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 95,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.919",
+                        "content": "Road"
+                    }
+                ],
+                "start_time": "31.34",
+                "end_time": "31.569",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 96,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.494",
+                        "content": "diagnostic"
+                    }
+                ],
+                "start_time": "31.569",
+                "end_time": "32.31",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 97,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.732",
+                        "content": "Center"
+                    }
+                ],
+                "start_time": "32.31",
+                "end_time": "32.86",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 98,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "?"
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 99,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "Um"
+                    }
+                ],
+                "start_time": "33.02",
+                "end_time": "33.349",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 100,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 101,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "no"
+                    }
+                ],
+                "start_time": "33.43",
+                "end_time": "33.459",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 102,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 103,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "I"
+                    }
+                ],
+                "start_time": "33.59",
+                "end_time": "33.79",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 104,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "don't"
+                    }
+                ],
+                "start_time": "33.79",
+                "end_time": "34.029",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 105,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "have"
+                    }
+                ],
+                "start_time": "34.029",
+                "end_time": "34.31",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 106,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "their"
+                    }
+                ],
+                "start_time": "34.31",
+                "end_time": "34.509",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 107,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 108,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "uh"
+                    }
+                ],
+                "start_time": "34.59",
+                "end_time": "34.939",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 109,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 110,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "phone"
+                    }
+                ],
+                "start_time": "34.99",
+                "end_time": "35.27",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 111,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "number"
+                    }
+                ],
+                "start_time": "35.27",
+                "end_time": "35.669",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 112,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.757",
+                        "content": "because"
+                    }
+                ],
+                "start_time": "35.669",
+                "end_time": "36.229",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 113,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "we"
+                    }
+                ],
+                "start_time": "36.229",
+                "end_time": "36.389",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 114,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.992",
+                        "content": "are"
+                    }
+                ],
+                "start_time": "36.389",
+                "end_time": "36.959",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 115,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.982",
+                        "content": "diagnostic"
+                    }
+                ],
+                "start_time": "36.959",
+                "end_time": "38.24",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 116,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 117,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "Oh"
+                    }
+                ],
+                "start_time": "38.869",
+                "end_time": "39.04",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 118,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 119,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "and"
+                    }
+                ],
+                "start_time": "39.06",
+                "end_time": "39.31",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 120,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.992",
+                        "content": "I'm"
+                    }
+                ],
+                "start_time": "39.31",
+                "end_time": "39.549",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 121,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 122,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.993",
+                        "content": "I'm"
+                    }
+                ],
+                "start_time": "39.709",
+                "end_time": "39.919",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 123,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "with"
+                    }
+                ],
+                "start_time": "39.919",
+                "end_time": "40.15",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 124,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.991",
+                        "content": "Franklin"
+                    }
+                ],
+                "start_time": "40.15",
+                "end_time": "40.59",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 125,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 126,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "is"
+                    }
+                ],
+                "start_time": "40.63",
+                "end_time": "40.79",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 127,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "that"
+                    }
+                ],
+                "start_time": "40.79",
+                "end_time": "40.95",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 128,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "what"
+                    }
+                ],
+                "start_time": "40.95",
+                "end_time": "41.069",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 129,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "you"
+                    }
+                ],
+                "start_time": "41.069",
+                "end_time": "41.25",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 130,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "said"
+                    }
+                ],
+                "start_time": "41.25",
+                "end_time": "41.619",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 131,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "?"
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 132,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.994",
+                        "content": "I'm"
+                    }
+                ],
+                "start_time": "41.83",
+                "end_time": "42.11",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 133,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "so"
+                    }
+                ],
+                "start_time": "42.11",
+                "end_time": "42.31",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 134,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "sorry"
+                    }
+                ],
+                "start_time": "42.31",
+                "end_time": "42.659",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 135,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 136,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "And"
+                    }
+                ],
+                "start_time": "43.619",
+                "end_time": "43.939",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 137,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "I'm"
+                    }
+                ],
+                "start_time": "43.95",
+                "end_time": "44.31",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 138,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "supposed"
+                    }
+                ],
+                "start_time": "44.31",
+                "end_time": "44.5",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 139,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "to"
+                    }
+                ],
+                "start_time": "44.5",
+                "end_time": "44.619",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 140,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "be"
+                    }
+                ],
+                "start_time": "44.619",
+                "end_time": "44.75",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 141,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "with"
+                    }
+                ],
+                "start_time": "44.75",
+                "end_time": "44.99",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 142,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.991",
+                        "content": "Franklin"
+                    }
+                ],
+                "start_time": "44.99",
+                "end_time": "45.509",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 143,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.988",
+                        "content": "Diagnostic"
+                    }
+                ],
+                "start_time": "45.509",
+                "end_time": "46.15",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 144,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.687",
+                        "content": "Center"
+                    }
+                ],
+                "start_time": "46.15",
+                "end_time": "46.549",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 145,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "?"
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 146,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.696",
+                        "content": "Yes"
+                    }
+                ],
+                "start_time": "46.639",
+                "end_time": "46.65",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 147,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 148,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.991",
+                        "content": "that's"
+                    }
+                ],
+                "start_time": "47.229",
+                "end_time": "47.47",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 149,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "actually"
+                    }
+                ],
+                "start_time": "47.47",
+                "end_time": "48.06",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 150,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "correct"
+                    }
+                ],
+                "start_time": "48.06",
+                "end_time": "48.27",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 151,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 152,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "yes"
+                    }
+                ],
+                "start_time": "48.29",
+                "end_time": "48.659",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 153,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 154,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "OK"
+                    }
+                ],
+                "start_time": "49.889",
+                "end_time": "50.56",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 155,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 156,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.995",
+                        "content": "I'll"
+                    }
+                ],
+                "start_time": "50.799",
+                "end_time": "51.08",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 157,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "check"
+                    }
+                ],
+                "start_time": "51.08",
+                "end_time": "51.259",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 158,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "it"
+                    }
+                ],
+                "start_time": "51.259",
+                "end_time": "51.36",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 159,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "out"
+                    }
+                ],
+                "start_time": "51.36",
+                "end_time": "51.639",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 160,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "thank"
+                    }
+                ],
+                "start_time": "51.639",
+                "end_time": "51.799",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 161,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "you"
+                    }
+                ],
+                "start_time": "51.799",
+                "end_time": "51.959",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 162,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "very"
+                    }
+                ],
+                "start_time": "51.959",
+                "end_time": "52.189",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 163,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "much"
+                    }
+                ],
+                "start_time": "52.189",
+                "end_time": "52.669",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 164,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.993",
+                        "content": "bye"
+                    }
+                ],
+                "start_time": "52.84",
+                "end_time": "53.159",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 165,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_1"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "Hi, this is Wessler Diagnostics. How may I help?",
+                "start_time": "0.0",
+                "end_time": "4.19",
+                "speaker_label": "spk_0",
+                "items": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                ]
+            },
+            {
+                "id": 1,
+                "transcript": "Oh yes, I just talked to someone who said that um uh my CT scan was bumped up because um there was a cancellation with you",
+                "start_time": "4.84",
+                "end_time": "13.159",
+                "speaker_label": "spk_1",
+                "items": [
+                    12,
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38
+                ]
+            },
+            {
+                "id": 2,
+                "transcript": "tomorrow",
+                "start_time": "13.159",
+                "end_time": "13.67",
+                "speaker_label": "spk_1",
+                "items": [
+                    39
+                ]
+            },
+            {
+                "id": 3,
+                "transcript": "and uh but I sorry?",
+                "start_time": "15.159",
+                "end_time": "17.0",
+                "speaker_label": "spk_1",
+                "items": [
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45
+                ]
+            },
+            {
+                "id": 4,
+                "transcript": "Uh sorry, because",
+                "start_time": "17.12",
+                "end_time": "18.469",
+                "speaker_label": "spk_0",
+                "items": [
+                    46,
+                    47,
+                    48,
+                    49
+                ]
+            },
+            {
+                "id": 5,
+                "transcript": "I'm",
+                "start_time": "18.469",
+                "end_time": "19.12",
+                "speaker_label": "spk_0",
+                "items": [
+                    50
+                ]
+            },
+            {
+                "id": 6,
+                "transcript": "under the impression that you were routed to a different clinic because we don't offer CT scan in our clinic.",
+                "start_time": "19.12",
+                "end_time": "25.299",
+                "speaker_label": "spk_0",
+                "items": [
+                    51,
+                    52,
+                    53,
+                    54,
+                    55,
+                    56,
+                    57,
+                    58,
+                    59,
+                    60,
+                    61,
+                    62,
+                    63,
+                    64,
+                    65,
+                    66,
+                    67,
+                    68,
+                    69,
+                    70,
+                    71
+                ]
+            },
+            {
+                "id": 7,
+                "transcript": "Oh, so, um, should I, could, would you happen to have the number that it's it's at Richmond Road diagnostic Center?",
+                "start_time": "25.549",
+                "end_time": "32.86",
+                "speaker_label": "spk_1",
+                "items": [
+                    72,
+                    73,
+                    74,
+                    75,
+                    76,
+                    77,
+                    78,
+                    79,
+                    80,
+                    81,
+                    82,
+                    83,
+                    84,
+                    85,
+                    86,
+                    87,
+                    88,
+                    89,
+                    90,
+                    91,
+                    92,
+                    93,
+                    94,
+                    95,
+                    96,
+                    97,
+                    98
+                ]
+            },
+            {
+                "id": 8,
+                "transcript": "Um, no, I don't have their, uh, phone number because we",
+                "start_time": "33.02",
+                "end_time": "36.389",
+                "speaker_label": "spk_0",
+                "items": [
+                    99,
+                    100,
+                    101,
+                    102,
+                    103,
+                    104,
+                    105,
+                    106,
+                    107,
+                    108,
+                    109,
+                    110,
+                    111,
+                    112,
+                    113
+                ]
+            },
+            {
+                "id": 9,
+                "transcript": "are",
+                "start_time": "36.389",
+                "end_time": "36.959",
+                "speaker_label": "spk_1",
+                "items": [
+                    114
+                ]
+            },
+            {
+                "id": 10,
+                "transcript": "diagnostic.",
+                "start_time": "36.959",
+                "end_time": "38.24",
+                "speaker_label": "spk_0",
+                "items": [
+                    115,
+                    116
+                ]
+            },
+            {
+                "id": 11,
+                "transcript": "Oh, and I'm, I'm with Franklin, is that what you said?",
+                "start_time": "38.869",
+                "end_time": "41.619",
+                "speaker_label": "spk_1",
+                "items": [
+                    117,
+                    118,
+                    119,
+                    120,
+                    121,
+                    122,
+                    123,
+                    124,
+                    125,
+                    126,
+                    127,
+                    128,
+                    129,
+                    130,
+                    131
+                ]
+            },
+            {
+                "id": 12,
+                "transcript": "I'm so sorry.",
+                "start_time": "41.83",
+                "end_time": "42.77",
+                "speaker_label": "spk_0",
+                "items": [
+                    132,
+                    133,
+                    134,
+                    135
+                ]
+            },
+            {
+                "id": 13,
+                "transcript": "And I'm supposed to be with Franklin Diagnostic Center?",
+                "start_time": "43.59",
+                "end_time": "46.549",
+                "speaker_label": "spk_1",
+                "items": [
+                    136,
+                    137,
+                    138,
+                    139,
+                    140,
+                    141,
+                    142,
+                    143,
+                    144,
+                    145
+                ]
+            },
+            {
+                "id": 14,
+                "transcript": "Yes, that's actually correct, yes.",
+                "start_time": "46.639",
+                "end_time": "48.79",
+                "speaker_label": "spk_0",
+                "items": [
+                    146,
+                    147,
+                    148,
+                    149,
+                    150,
+                    151,
+                    152,
+                    153
+                ]
+            },
+            {
+                "id": 15,
+                "transcript": "OK,",
+                "start_time": "49.88",
+                "end_time": "50.56",
+                "speaker_label": "spk_1",
+                "items": [
+                    154,
+                    155
+                ]
+            },
+            {
+                "id": 16,
+                "transcript": "I'll check it out thank you very",
+                "start_time": "50.799",
+                "end_time": "52.189",
+                "speaker_label": "spk_1",
+                "items": [
+                    156,
+                    157,
+                    158,
+                    159,
+                    160,
+                    161,
+                    162
+                ]
+            },
+            {
+                "id": 17,
+                "transcript": "much bye.",
+                "start_time": "52.189",
+                "end_time": "53.29",
+                "speaker_label": "spk_1",
+                "items": [
+                    163,
+                    164,
+                    165
+                ]
+            }
+        ]
+    }
+}

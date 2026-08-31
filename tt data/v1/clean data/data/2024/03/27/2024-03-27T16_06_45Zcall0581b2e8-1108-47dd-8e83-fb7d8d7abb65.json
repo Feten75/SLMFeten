@@ -1,0 +1,58 @@
+{
+    "jobName": "transcription-job-2024-03-27T16-06-45Z-call-0581b2e8-1108-47dd-8e83-fb7d8d7abb65-1734648514",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "Yes"
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "51.65",
+                    "end_time": "52.2",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "51.849",
+                            "end_time": "52.169"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 1
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.594",
+                        "content": "Yes"
+                    }
+                ],
+                "start_time": "51.849",
+                "end_time": "52.169",
+                "speaker_label": "spk_0"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "Yes",
+                "start_time": "51.65",
+                "end_time": "52.2",
+                "speaker_label": "spk_0",
+                "items": [
+                    0
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "jobName": "transcription-job-2024-03-21T20-12-30Z-call-c6ea5c04-7521-45ec-9d63-502a82fe8715-1734639176",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "Thank you for calling Mossler [PII]."
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "1.61",
+                    "end_time": "3.519",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "1.769",
+                            "end_time": "1.889"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "1.889",
+                            "end_time": "2.049"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "2.049",
+                            "end_time": "2.25"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "2.25",
+                            "end_time": "2.559"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "2.559",
+                            "end_time": "3.0"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "3.0",
+                            "end_time": "3.41"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 1
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "Thank"
+                    }
+                ],
+                "start_time": "1.769",
+                "end_time": "1.889",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 1,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "you"
+                    }
+                ],
+                "start_time": "1.889",
+                "end_time": "2.049",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 2,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "for"
+                    }
+                ],
+                "start_time": "2.049",
+                "end_time": "2.25",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 3,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "calling"
+                    }
+                ],
+                "start_time": "2.25",
+                "end_time": "2.559",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 4,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.797",
+                        "content": "Mossler"
+                    }
+                ],
+                "start_time": "2.559",
+                "end_time": "3.0",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 5,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "content": "[PII]",
+                        "redactions": [
+                            {
+                                "confidence": "0.9999",
+                                "type": "NAME",
+                                "category": "PII"
+                            }
+                        ]
+                    }
+                ],
+                "start_time": "3.0",
+                "end_time": "3.41"
+            },
+            {
+                "id": 6,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ]
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "Thank you for calling Mossler [PII].",
+                "start_time": "1.61",
+                "end_time": "3.519",
+                "speaker_label": "spk_0",
+                "items": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            }
+        ]
+    }
+}

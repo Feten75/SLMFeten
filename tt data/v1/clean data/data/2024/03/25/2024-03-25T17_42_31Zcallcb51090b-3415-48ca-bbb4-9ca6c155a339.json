@@ -1,0 +1,216 @@
+{
+    "jobName": "transcription-job-2024-03-25T17-42-31Z-call-cb51090b-3415-48ca-bbb4-9ca6c155a339-1734643756",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "Oh Mhm to shop on go here."
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "15.609",
+                    "end_time": "16.53",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "16.229",
+                            "end_time": "16.26"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "24.36",
+                    "end_time": "25.459",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "24.37",
+                            "end_time": "24.379"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "28.0",
+                    "end_time": "31.079",
+                    "speaker_label": "spk_1",
+                    "items": [
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "28.51",
+                            "end_time": "28.52"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "28.52",
+                            "end_time": "28.809"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "28.809",
+                            "end_time": "29.479"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "29.479",
+                            "end_time": "29.84"
+                        },
+                        {
+                            "speaker_label": "spk_1",
+                            "start_time": "29.84",
+                            "end_time": "30.11"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 2
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.041",
+                        "content": "Oh"
+                    }
+                ],
+                "start_time": "16.229",
+                "end_time": "16.26",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 1,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.711",
+                        "content": "Mhm"
+                    }
+                ],
+                "start_time": "24.37",
+                "end_time": "24.379",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 2,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.649",
+                        "content": "to"
+                    }
+                ],
+                "start_time": "28.51",
+                "end_time": "28.52",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 3,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.99",
+                        "content": "shop"
+                    }
+                ],
+                "start_time": "28.52",
+                "end_time": "28.809",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 4,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "on"
+                    }
+                ],
+                "start_time": "28.809",
+                "end_time": "29.479",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 5,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.99",
+                        "content": "go"
+                    }
+                ],
+                "start_time": "29.479",
+                "end_time": "29.84",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 6,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.612",
+                        "content": "here"
+                    }
+                ],
+                "start_time": "29.84",
+                "end_time": "30.11",
+                "speaker_label": "spk_1"
+            },
+            {
+                "id": 7,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_1"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "Oh",
+                "start_time": "15.609",
+                "end_time": "16.53",
+                "speaker_label": "spk_0",
+                "items": [
+                    0
+                ]
+            },
+            {
+                "id": 1,
+                "transcript": "Mhm",
+                "start_time": "24.36",
+                "end_time": "25.459",
+                "speaker_label": "spk_0",
+                "items": [
+                    1
+                ]
+            },
+            {
+                "id": 2,
+                "transcript": "to shop on go here.",
+                "start_time": "28.0",
+                "end_time": "31.079",
+                "speaker_label": "spk_1",
+                "items": [
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ]
+            }
+        ]
+    }
+}

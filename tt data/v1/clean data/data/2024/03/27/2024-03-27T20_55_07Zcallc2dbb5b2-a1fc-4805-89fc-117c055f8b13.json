@@ -1,0 +1,96 @@
+{
+    "jobName": "transcription-job-2024-03-27T20-55-07Z-call-c2dbb5b2-a1fc-4805-89fc-117c055f8b13-1734650719",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "What were they"
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "0.0",
+                    "end_time": "1.379",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "0.529",
+                            "end_time": "0.8"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "0.8",
+                            "end_time": "0.949"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "0.949",
+                            "end_time": "0.959"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 1
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.99",
+                        "content": "What"
+                    }
+                ],
+                "start_time": "0.529",
+                "end_time": "0.8",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 1,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.532",
+                        "content": "were"
+                    }
+                ],
+                "start_time": "0.8",
+                "end_time": "0.949",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 2,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.886",
+                        "content": "they"
+                    }
+                ],
+                "start_time": "0.949",
+                "end_time": "0.959",
+                "speaker_label": "spk_0"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "What were they",
+                "start_time": "0.0",
+                "end_time": "1.379",
+                "speaker_label": "spk_0",
+                "items": [
+                    0,
+                    1,
+                    2
+                ]
+            }
+        ]
+    }
+}

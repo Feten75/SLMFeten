@@ -18,3 +18,4 @@ AVAILABLE_MODELS = [
     'assistant_generique_feten',
     'assistant_generiquev2'
 ]
+

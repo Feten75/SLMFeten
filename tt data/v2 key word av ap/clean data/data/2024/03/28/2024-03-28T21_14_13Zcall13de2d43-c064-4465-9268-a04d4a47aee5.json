@@ -1,0 +1,108 @@
+{
+    "jobName": "transcription-job-2024-03-28T21-14-13Z-call-13de2d43-c064-4465-9268-a04d4a47aee5-7c270caf-1ef9-489e-acff-eea51933614b",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "Going all out."
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "14.199",
+                    "end_time": "15.939",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "14.21",
+                            "end_time": "14.229"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "14.229",
+                            "end_time": "14.239"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "14.239",
+                            "end_time": "14.25"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 1
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.669",
+                        "content": "Going"
+                    }
+                ],
+                "start_time": "14.21",
+                "end_time": "14.229",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 1,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "all"
+                    }
+                ],
+                "start_time": "14.229",
+                "end_time": "14.239",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 2,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.744",
+                        "content": "out"
+                    }
+                ],
+                "start_time": "14.239",
+                "end_time": "14.25",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 3,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_0"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "Going all out.",
+                "start_time": "14.199",
+                "end_time": "15.939",
+                "speaker_label": "spk_0",
+                "items": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            }
+        ]
+    }
+}

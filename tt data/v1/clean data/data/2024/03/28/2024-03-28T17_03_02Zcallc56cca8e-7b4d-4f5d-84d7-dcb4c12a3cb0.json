@@ -1,0 +1,139 @@
+{
+    "jobName": "transcription-job-2024-03-28T17-03-02Z-call-c56cca8e-7b4d-4f5d-84d7-dcb4c12a3cb0-844e457e-3388-420f-9ca1-edc9c8ebf17b",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "Uh, for God's sake."
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "38.659",
+                    "end_time": "39.86",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "38.669",
+                            "end_time": "38.86"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "38.979",
+                            "end_time": "39.18"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "39.18",
+                            "end_time": "39.509"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "39.509",
+                            "end_time": "39.7"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 1
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.987",
+                        "content": "Uh"
+                    }
+                ],
+                "start_time": "38.669",
+                "end_time": "38.86",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 1,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": ","
+                    }
+                ],
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 2,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "for"
+                    }
+                ],
+                "start_time": "38.979",
+                "end_time": "39.18",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 3,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.648",
+                        "content": "God's"
+                    }
+                ],
+                "start_time": "39.18",
+                "end_time": "39.509",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 4,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.845",
+                        "content": "sake"
+                    }
+                ],
+                "start_time": "39.509",
+                "end_time": "39.7",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 5,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_0"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "Uh, for God's sake.",
+                "start_time": "38.659",
+                "end_time": "39.86",
+                "speaker_label": "spk_0",
+                "items": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            }
+        ]
+    }
+}

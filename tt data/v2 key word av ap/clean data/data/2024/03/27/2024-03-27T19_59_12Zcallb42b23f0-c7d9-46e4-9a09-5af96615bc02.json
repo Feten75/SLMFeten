@@ -1,0 +1,181 @@
+{
+    "jobName": "transcription-job-2024-03-27T19-59-12Z-call-b42b23f0-c7d9-46e4-9a09-5af96615bc02-1734650069",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "Where did you what So sorry?"
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "49.549",
+                    "end_time": "51.889",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "49.83",
+                            "end_time": "49.939"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "49.939",
+                            "end_time": "49.95"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "49.95",
+                            "end_time": "50.069"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "50.069",
+                            "end_time": "50.08"
+                        }
+                    ]
+                },
+                {
+                    "start_time": "55.409",
+                    "end_time": "56.169",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "55.529",
+                            "end_time": "55.81"
+                        },
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "55.81",
+                            "end_time": "56.08"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 1
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.342",
+                        "content": "Where"
+                    }
+                ],
+                "start_time": "49.83",
+                "end_time": "49.939",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 1,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.335",
+                        "content": "did"
+                    }
+                ],
+                "start_time": "49.939",
+                "end_time": "49.95",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 2,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.346",
+                        "content": "you"
+                    }
+                ],
+                "start_time": "49.95",
+                "end_time": "50.069",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 3,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.889",
+                        "content": "what"
+                    }
+                ],
+                "start_time": "50.069",
+                "end_time": "50.08",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 4,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.756",
+                        "content": "So"
+                    }
+                ],
+                "start_time": "55.529",
+                "end_time": "55.81",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 5,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.985",
+                        "content": "sorry"
+                    }
+                ],
+                "start_time": "55.81",
+                "end_time": "56.08",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 6,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "?"
+                    }
+                ],
+                "speaker_label": "spk_0"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "Where did you what",
+                "start_time": "49.549",
+                "end_time": "51.889",
+                "speaker_label": "spk_0",
+                "items": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
+            },
+            {
+                "id": 1,
+                "transcript": "So sorry?",
+                "start_time": "55.409",
+                "end_time": "56.169",
+                "speaker_label": "spk_0",
+                "items": [
+                    4,
+                    5,
+                    6
+                ]
+            }
+        ]
+    }
+}

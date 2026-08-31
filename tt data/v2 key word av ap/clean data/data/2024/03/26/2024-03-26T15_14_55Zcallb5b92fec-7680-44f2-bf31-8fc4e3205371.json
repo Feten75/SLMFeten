@@ -1,0 +1,70 @@
+{
+    "jobName": "transcription-job-2024-03-26T15-14-55Z-call-b5b92fec-7680-44f2-bf31-8fc4e3205371-ec480d5b-558a-478a-be8f-e01f9a255220",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "Hello."
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "25.569",
+                    "end_time": "27.079",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "25.77",
+                            "end_time": "25.979"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 1
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.65",
+                        "content": "Hello"
+                    }
+                ],
+                "start_time": "25.77",
+                "end_time": "25.979",
+                "speaker_label": "spk_0"
+            },
+            {
+                "id": 1,
+                "type": "punctuation",
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "."
+                    }
+                ],
+                "speaker_label": "spk_0"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "Hello.",
+                "start_time": "25.569",
+                "end_time": "27.079",
+                "speaker_label": "spk_0",
+                "items": [
+                    0,
+                    1
+                ]
+            }
+        ]
+    }
+}

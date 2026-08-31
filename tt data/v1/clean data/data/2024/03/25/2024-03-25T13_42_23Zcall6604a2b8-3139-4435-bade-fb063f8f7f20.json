@@ -1,0 +1,58 @@
+{
+    "jobName": "transcription-job-2024-03-25T13-42-23Z-call-6604a2b8-3139-4435-bade-fb063f8f7f20-1734640892",
+    "accountId": "199040315413",
+    "isRedacted": true,
+    "status": "COMPLETED",
+    "results": {
+        "transcripts": [
+            {
+                "transcript": "Password"
+            }
+        ],
+        "speaker_labels": {
+            "segments": [
+                {
+                    "start_time": "1.47",
+                    "end_time": "2.69",
+                    "speaker_label": "spk_0",
+                    "items": [
+                        {
+                            "speaker_label": "spk_0",
+                            "start_time": "1.48",
+                            "end_time": "2.66"
+                        }
+                    ]
+                }
+            ],
+            "channel_label": "ch_0",
+            "speakers": 1
+        },
+        "items": [
+            {
+                "id": 0,
+                "type": "pronunciation",
+                "alternatives": [
+                    {
+                        "confidence": "0.988",
+                        "content": "Password"
+                    }
+                ],
+                "start_time": "1.48",
+                "end_time": "2.66",
+                "speaker_label": "spk_0"
+            }
+        ],
+        "audio_segments": [
+            {
+                "id": 0,
+                "transcript": "Password",
+                "start_time": "1.47",
+                "end_time": "2.69",
+                "speaker_label": "spk_0",
+                "items": [
+                    0
+                ]
+            }
+        ]
+    }
+}
